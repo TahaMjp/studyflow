@@ -20,7 +20,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 
 // ===== Layout Components =====
 // These components appear on every page
-import Navbar from "./ui/Navbar";
+import Navbar from "./ui/navbar/Navbar";
 import Footer from "./ui/Footer";
 
 function App() {
