@@ -7,12 +7,13 @@
 
 import React from "react";
 import HeroSection from "./sections/hero/HeroSection";
+import HighlightsSection from "./sections/highlights/HighlightsSection";
 
 const HomePage: React.FC = () => {
   return (
     <>
       <HeroSection />
-      {/* Future sections go here */}
+      <HighlightsSection />
     </>
   );
 };

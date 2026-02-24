@@ -32,3 +32,11 @@
 .animate-float {
     animation: float 6s ease-in-out infinite;
 }
+
+
+/* index.css or global styles */
+
+html,
+body {
+    overflow-x: hidden;
+}

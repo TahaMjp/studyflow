@@ -7,9 +7,13 @@ import GlassContainer from "../../../../../ui/glass/GlassContainer";
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center px-6">
-      <div className="max-w-10/12 w-full mx-auto text-center space-y-10">
-        <GlassContainer>
+    <section className="min-h-screen flex items-center justify-center">
+      <div className="max-w-10/12 w-full mx-auto text-center">
+        <GlassContainer
+          padding="py-40"
+          spacing="space-y-10"
+          maxWidth="max-w-6xl"
+        >
           <HeroHeadline text={heroContent.headline} />
           <HeroSubtext text={heroContent.subtext} />
           <HeroCTAGroup ctas={heroContent.ctas} />
