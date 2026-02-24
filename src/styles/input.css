@@ -12,5 +12,23 @@
 
 .animate-shine {
     background-size: 200% auto;
-    animation: shine 6s linear infinite;
+    animation: shine 8s linear infinite;
+    -webkit-animation: shine 8s linear infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+        /* moves up 10px */
+    }
+}
+
+.animate-float {
+    animation: float 6s ease-in-out infinite;
 }
