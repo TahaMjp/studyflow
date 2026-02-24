@@ -7,13 +7,11 @@
  * 2. Wrap pages with global layout components (Navbar, Footer)
  * 3. Maintain consistent structure across all pages
  */
-
-import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 // ===== Page Imports =====
 // Each route renders one of these components
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/modules/home/HomePage";
 import FeaturesPage from "./pages/FeaturesPage";
 import PricingPage from "./pages/PricingPage";
 import NotFoundPage from "./pages/NotFoundPage";
