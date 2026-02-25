@@ -35,12 +35,8 @@ const highlightsData = [
 const HighlightsSection: React.FC = () => {
   return (
     <section className=" bg-white/5 relative z-10">
-      <GlassTitleBar
-        title="Why StudyFlow Works"
-        padding="px-10 py-4"
-        maxWidth="max-w-6xl"
-      />
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
+      <GlassTitleBar title="Why StudyFlow Works" maxWidth="max-w-6xl" />
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
         {highlightsData.map((item, index) => (
           <HighlightCard
             key={index}
